@@ -1,11 +1,11 @@
 
 
 // default parameter
-// const addUser=(name,last,city)=>{
-//     return name + last +"city ="+city 
-// }
-// console.log(addUser("wutti","jojo","bankkok"));
-// console.log(addUser("wutti","jojo","chaingmai"));
+const addUser=(name,last,city)=>{
+    return name + last +"city ="+city 
+}
+console.log(addUser("wutti","jojo","bankkok"));
+console.log(addUser("wutti","jojo","chaingmai"));
 
 
 
@@ -13,11 +13,11 @@
 
 //Rest oparator 1
 
-// const addUser=(name,last,...city)=>{
-//     return name + last +city
-// }
-// console.log(addUser("wutti","hoho","hongsong"));
-// console.log(addUser("wutti","hoho","hongsong","bankkok"));
+const addUser=(name,last,...city)=>{
+    return name + last +city
+}
+console.log(addUser("wutti","hoho","hongsong"));
+console.log(addUser("wutti","hoho","hongsong","bankkok"));
 
 //Rest oparator 2
 
